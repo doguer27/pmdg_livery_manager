@@ -30,3 +30,4 @@ C:\Users\ztdog\source\repos\pmdg_livery_manager\obj\Release\net10.0-windows\pmdg
 C:\Users\ztdog\source\repos\pmdg_livery_manager\obj\Release\net10.0-windows\ref\pmdg_livery_manager.dll
 C:\Users\ztdog\source\repos\pmdg_livery_manager\obj\Release\net10.0-windows\pmdg_livery_manager_MarkupCompile.lref
 C:\Users\ztdog\source\repos\pmdg_livery_manager\obj\Release\net10.0-windows\App.baml
+C:\Users\ztdog\source\repos\pmdg_livery_manager\obj\Release\net10.0-windows\pmdg_livery_manager.sourcelink.json

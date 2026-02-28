@@ -18,8 +18,8 @@ namespace LiveryManagerApp
         // =====================================================================
         // CONFIGURACIÓN DE ACTUALIZACIONES (Cámbialo si es necesario)
         // =====================================================================
-        private const string CURRENT_VERSION = "v2.0-r1"; // Tu versión actual
-        private const string GITHUB_REPO = "doguer27/livery_manager_cs";
+        private const string CURRENT_VERSION = "v2.0-r2"; // Tu versión actual
+        private const string GITHUB_REPO = "doguer27/pmdg_livery_manager";
 
         public LiveryEngine Engine { get; private set; }
 
@@ -169,11 +169,12 @@ namespace LiveryManagerApp
                 {
                     FileName = tempInstallerPath,
                     Arguments = "-autoupdate",
-                    UseShellExecute = true
+                    UseShellExecute = true,
+                    WorkingDirectory = Path.GetTempPath()  // ← AÑADE ESTO
                 };
                 Process.Start(psi);
 
-                // Matamos el Manager actual para que el instalador pueda sobreescribirlo
+                await Task.Delay(500);
                 Application.Current.Shutdown();
             }
             catch (Exception ex)

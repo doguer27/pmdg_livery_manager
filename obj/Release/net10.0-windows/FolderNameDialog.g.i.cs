@@ -68,7 +68,7 @@ namespace LiveryManagerApp {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/pmdg_livery_manager;V1.0.0.0;component/foldernamedialog.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/pmdg_livery_manager;component/foldernamedialog.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\FolderNameDialog.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

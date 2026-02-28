@@ -52,7 +52,7 @@ namespace LiveryManagerApp {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/pmdg_livery_manager;V1.0.0.0;component/simselectorpopup.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/pmdg_livery_manager;component/simselectorpopup.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\SimSelectorPopup.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

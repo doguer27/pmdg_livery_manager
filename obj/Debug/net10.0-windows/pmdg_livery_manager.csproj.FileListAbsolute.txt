@@ -28,3 +28,6 @@ C:\Users\ztdog\source\repos\pmdg_livery_manager\obj\Debug\net10.0-windows\SimSel
 C:\Users\ztdog\source\repos\pmdg_livery_manager\obj\Debug\net10.0-windows\SimSelectorPopup.g.cs
 C:\Users\ztdog\source\repos\pmdg_livery_manager\obj\Debug\net10.0-windows\DeleteConfirmDialog.baml
 C:\Users\ztdog\source\repos\pmdg_livery_manager\obj\Debug\net10.0-windows\DeleteConfirmDialog.g.cs
+C:\Users\ztdog\source\repos\pmdg_livery_manager\obj\Debug\net10.0-windows\pmdg_livery_manager_MarkupCompile.lref
+C:\Users\ztdog\source\repos\pmdg_livery_manager\obj\Debug\net10.0-windows\App.baml
+C:\Users\ztdog\source\repos\pmdg_livery_manager\obj\Debug\net10.0-windows\pmdg_livery_manager.sourcelink.json
