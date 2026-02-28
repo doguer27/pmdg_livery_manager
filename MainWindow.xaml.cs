@@ -15,9 +15,7 @@ namespace LiveryManagerApp
 {
     public partial class MainWindow : Window
     {
-        // =====================================================================
         // CONFIGURACIÓN DE ACTUALIZACIONES (Cámbialo si es necesario)
-        // =====================================================================
         private const string CURRENT_VERSION = "v2.0-r2"; // Tu versión actual
         private const string GITHUB_REPO = "doguer27/pmdg_livery_manager";
 
@@ -65,9 +63,7 @@ namespace LiveryManagerApp
             Task.Run(() => CheckForUpdatesAsync());
         }
 
-        // =====================================================================
         // SISTEMA DE AUTO-UPDATE (GITHUB API)
-        // =====================================================================
         private async Task CheckForUpdatesAsync()
         {
             try

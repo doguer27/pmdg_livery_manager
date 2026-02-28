@@ -61,9 +61,7 @@ namespace LiveryManagerApp
             }
         }
 
-        // =====================================================================
-        // ESTA ES LA FUNCIÓN QUE FALTABA Y CAUSABA EL ERROR CS1061
-        // =====================================================================
+        // ESTA ES LA FUNCIÓN QUE FALTABA Y CAUSABA EL ERROR CS106
         public void AddNewFiles(string[] files)
         {
             ProcessDroppedFilesAsync(files);
@@ -97,9 +95,7 @@ namespace LiveryManagerApp
             _parent.Engine.SaveConfig();
         }
 
-        // =====================================================================
         // LÓGICA DE DRAG & DROP DESBLOQUEADA
-        // =====================================================================
         private void Window_DragEnter(object sender, DragEventArgs e)
         {
             if (e.Data.GetDataPresent(DataFormats.FileDrop))
@@ -215,9 +211,7 @@ namespace LiveryManagerApp
             await Task.Run(() => RunInstall(target, linker));
         }
 
-        // =============================================================================
         // LÓGICA DE INSTALACIÓN MASIVA
-        // =============================================================================
         private void RunInstall(string installTarget, bool useLinker)
         {
             int total = _filesList.Count;
@@ -304,9 +298,7 @@ namespace LiveryManagerApp
             });
         }
 
-        // =============================================================================
         // PROCESAMIENTO Y CARPETAS
-        // =============================================================================
         private (string destRoot, string detectedAc) ProcessExtractedFolder(string sourceFolder, string targetCommFolder, bool useLinker, string originalName)
         {
             string? liverySrc = FindLiveryFolder(sourceFolder);
