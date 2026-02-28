@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>bin\Debug\net10.0-windows\ico.ico</ApplicationIcon>
+    <AssemblyTitle>pmdg_livery_manager</AssemblyTitle>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ico.ico" />
+    <None Remove="msfs24_data\MSFSLayoutGenerator.exe" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net10.0-windows\ico.ico" />
+    <Resource Include="ico.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="msfs24_data\MSFSLayoutGenerator.exe" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,11 @@
+📄 MainWindow.xaml & MainWindow.xaml.cs (We are building this now)
+
+📄 InstallerPopup.xaml & InstallerPopup.xaml.cs (Your Drag & Drop window)
+
+📄 SimSelectorPopup.xaml & SimSelectorPopup.xaml.cs (First run window)
+
+📄 FolderNameDialog.xaml & FolderNameDialog.xaml.cs (Custom name input)
+
+📄 PatchNotesPopup.xaml & PatchNotesPopup.xaml.cs
+
+Logic.cs
